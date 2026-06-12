@@ -1,6 +1,6 @@
 # Plataforma Completa de Clasificación (Regresión Logística y Lineal)
 
-Este repositorio contiene el Proyecto Final de la asignatura de Inteligencia Artificial desarrollado por **Marleinis Orozco**.
+Este repositorio contiene el Proyecto Final de la asignatura de Inteligencia Artificial desarrollado por **Marleinis Orozco** y **Yuleisi Carranza**.
 
 La aplicación es una plataforma web interactiva de **Machine Learning** que ejecuta todo su procesamiento (parseo de datos, separación, entrenamiento matemático, predicción) directamente utilizando **Python y Streamlit** en una interfaz interactiva de alto rendimiento.
 

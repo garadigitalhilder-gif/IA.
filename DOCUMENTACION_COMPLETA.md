@@ -1,6 +1,6 @@
 # Guía y Documentación Completa de la Plataforma Educativa de Machine Learning
 
-Esta documentación detalla de forma exhaustiva el funcionamiento teórico, las ecuaciones matemáticas y el flujo lógico de la aplicación web interactiva desarrollada por **Marleinis Orozco** para el proyecto final del curso de **Inteligencia Artificial y Aprendizaje de Máquina** (dirigido por el **Ph.D. Jorge Rudas**).
+Esta documentación detalla de forma exhaustiva el funcionamiento teórico, las ecuaciones matemáticas y el flujo lógico de la aplicación web interactiva desarrollada por **Marleinis Orozco** y **Yuleisi Carranza** para el proyecto final del curso de **Inteligencia Artificial y Aprendizaje de Máquina** (dirigido por el **Ph.D. Jorge Rudas**).
 
 La plataforma es una herramienta pedagógica diseñada para comparar dos paradigmas fundamentales en el aprendizaje supervisado: la **Regresión Lineal como Clasificador** (en 2D) y la **Regresión Logística** (en problemas multivariables de clasificación binaria real).
 

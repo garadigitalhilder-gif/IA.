@@ -99,7 +99,7 @@ st.markdown("""
             <p class="header-subtitle">Plataforma Interactiva para la Enseñanza de Clasificadores Supervisados</p>
         </div>
         <div style="text-align: right;">
-            <span class="author-badge">Desarrollado por: Marleinis Orozco</span>
+            <span class="author-badge">Desarrollado por: Marleinis Orozco y Yuleisi Carranza</span>
         </div>
     </div>
 </div>
@@ -1181,7 +1181,7 @@ elif module == " Módulo 3: Metodología y Fundamentos Teóricos":
 
     st.markdown(f"""
     <div style="background: rgba(99, 102, 241, 0.1); border-left: 4px solid #6366f1; padding: 1rem; border-radius: 4px; margin-bottom: 1.5rem;">
-        <strong>Estudiante:</strong> Marleinis Orozco<br>
+        <strong>Estudiantes:</strong> Marleinis Orozco y Yuleisi Carranza<br>
         <strong>Curso:</strong> Inteligencia Artificial y Aprendizaje de Máquina (Ingeniería Informática)<br>
         <strong>Docente:</strong> PhD Jorge Rudas
     </div>
