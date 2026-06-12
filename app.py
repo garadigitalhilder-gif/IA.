@@ -1077,8 +1077,11 @@ elif module == " Módulo 2: Clasificación Multivariable (Regresión Logística)
                 fpr_arr = np.array(fpr_list)[sorted_idx]
                 tpr_arr = np.array(tpr_list)[sorted_idx]
                 
-                # Calcular AUC usando regla trapezoidal
-                auc = np.trapz(tpr_arr, fpr_arr)
+                # Calcular AUC usando regla trapezoidal (con soporte para numpy 2.0+)
+                if hasattr(np, "trapezoid"):
+                    auc = np.trapezoid(tpr_arr, fpr_arr)
+                else:
+                    auc = np.trapz(tpr_arr, fpr_arr)
                 
                 # Dibujar Curva ROC con Plotly
                 fig_roc = go.Figure()
@@ -1222,9 +1225,9 @@ elif module == " Módulo 3: Metodología y Fundamentos Teóricos":
         """)
 
     with tab_doc4:
-        st.markdown("####  Cómo subir tu app a internet gratis (Link Único)")
+        st.markdown("####  Cómo desplegamos la app )")
         st.markdown("""
-        Para que el docente **PhD Jorge Rudas** y cualquier persona pueda acceder a tu aplicación con un solo enlace, sigue estos sencillos pasos:
+
         
         ##### Paso 1: Subir tu código a GitHub
         1. Crea una cuenta gratuita en [GitHub](https://github.com/) si aún no la tienes.
