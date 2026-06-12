@@ -1225,7 +1225,7 @@ elif module == " Módulo 3: Metodología y Fundamentos Teóricos":
         """)
 
     with tab_doc4:
-        st.markdown("####  Cómo desplegamos la app )")
+        st.markdown("####  Cómo desplegamos la app")
         st.markdown("""
 
         
@@ -1239,15 +1239,15 @@ elif module == " Módulo 3: Metodología y Fundamentos Teóricos":
            * `wine.csv` (opcional, para que los usuarios puedan descargarlo de allí)
         
         ##### Paso 2: Conectar con Streamlit Community Cloud
-        1. Entra a [Streamlit Share](https://share.streamlit.io/) y regístrate iniciando sesión con tu cuenta de **GitHub**.
-        2. Haz clic en el botón azul **"Create app"** (o **"Deploy an app"**).
-        3. Rellena los campos con los datos de tu repositorio:
+        1. Entramos a [Streamlit Share](https://share.streamlit.io/) y nos registramos iniciando sesión con nuestra cuenta de **GitHub**.
+        2. Hacemos clic en el botón azul **"Create app"** (o **"Deploy an app"**).
+        3. Rellenamos los campos con los datos de nuestro repositorio:
            * **Repository:** `tu-usuario-github/Proyecto_Final_Inteligencia_Artificial` (puedes buscarlo en la lista)
            * **Branch:** `main` (o la rama principal que uses)
            * **Main file path:** `app.py`
         4. (Opcional) En el campo **App URL** de la derecha, puedes cambiar el nombre para personalizar el enlace, por ejemplo: `marleinis-orozco-ia.streamlit.app`.
-        5. Haz clic en **"Deploy!"**.
+        5. Hacemos clic en **"Deploy!"**.
         
         ##### Paso 3: ¡Listo!
-        En 1 o 2 minutos tu aplicación estará en línea y se abrirá automáticamente. A partir de ese momento, cualquier persona que tenga el enlace único (por ejemplo: `https://marleinis-orozco-ia.streamlit.app/`) podrá usar tu plataforma educativa para cargar datos, entrenar y evaluar el modelo.
+        
         """)
