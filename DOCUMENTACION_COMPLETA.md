@@ -6,7 +6,7 @@ La plataforma es una herramienta pedagógica diseñada para comparar dos paradig
 
 ---
 
-## Arquitectura General del Sistema
+##  Arquitectura General del Sistema
 
 La aplicación está construida utilizando el framework **Streamlit** en **Python**. Toda la lógica está contenida en el archivo `app.py`. La app está dividida en tres secciones lógicas accesibles desde la barra lateral:
 1. ** Módulo 1: Simulador Interactivo 2D (Regresión Lineal)**
@@ -15,16 +15,16 @@ La aplicación está construida utilizando el framework **Streamlit** en **Pytho
 
 ---
 
-## Módulo 1: Simulador Interactivo 2D (Regresión Lineal)
+##  Módulo 1: Simulador Interactivo 2D (Regresión Lineal)
 
 Este módulo está destinado a demostrar de manera gráfica cómo funciona la regresión lineal continua cuando se le impone un umbral artificial para resolver un problema de clasificación de dos clases (Clase 0: Rosado y Clase 1: Verde).
 
 ### 1. Interacción con los Datos
 * **Edición en Tabla:** A través de un componente `st.data_editor`, el usuario puede ingresar y modificar coordenadas $(X, Y)$ y la etiqueta de la clase (0 o 1).
 * **Plantillas de Datos:** Se ofrecen tres escenarios predefinidos para analizar de inmediato:
- * **Separable:** Puntos ordenados donde las clases no se cruzan.
- * **Traslapado:** Puntos donde las clases se mezclan en la zona central (frontera no lineal).
- * **Con Outliers:** Puntos adicionales colocados lejos del grupo principal para demostrar la inestabilidad de la regresión lineal.
+  * **Separable:** Puntos ordenados donde las clases no se cruzan.
+  * **Traslapado:** Puntos donde las clases se mezclan en la zona central (frontera no lineal).
+  * **Con Outliers:** Puntos adicionales colocados lejos del grupo principal para demostrar la inestabilidad de la regresión lineal.
 
 ### 2. Fundamento Matemático del Modelo Lineal
 La hipótesis lineal modela una salida continua a partir de una variable de entrada $x$:
@@ -61,7 +61,7 @@ Este límite separa el plano en dos regiones sombreadas de fondo (rosa para pred
 ### 4. Métricas Computadas
 * **MSE (Error Cuadrático Medio):** Mide la desviación de la recta respecto a los valores del eje Y.
 * **$R^2$ (Coeficiente de Determinación):** Proporción de la varianza en Y que es explicable por X:
- $$R^2 = 1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}$$
+  $$R^2 = 1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}$$
 * **Accuracy, Precision, Recall y F1-Score:** Métricas binarias calculadas sobre los aciertos de clasificación resultantes tras aplicar el umbral.
 
 ### 5. Demostración Pedagógica del Outlier
@@ -69,7 +69,7 @@ La regresión lineal minimiza los errores cuadráticos verticales. Si se introdu
 
 ---
 
-## Módulo 2: Clasificación Multivariable (Regresión Logística)
+##  Módulo 2: Clasificación Multivariable (Regresión Logística)
 
 Este módulo implementa un clasificador real multivariable utilizando el algoritmo matemático nativo de la Regresión Logística.
 
@@ -141,8 +141,8 @@ Clasifica los aciertos y errores en 4 cuadrantes según el umbral ($t$) seleccio
 #### Curva ROC (Receiver Operating Characteristic) & AUC
 * **Curva ROC:** Grafica la Tasa de Verdaderos Positivos (Recall / TPR) frente a la Tasa de Falsos Positivos (FPR = $\frac{FP}{FP + TN}$) evaluando todos los posibles umbrales de decisión entre 0 y 1.
 * **AUC (Área Bajo la Curva):** Mide la capacidad de separación del clasificador. Se calcula mediante la **regla trapezoidal** integrando numéricamente el área bajo la curva ROC:
- $$\text{AUC} \approx \sum_{k=1}^{M} \frac{\text{TPR}_k + \text{TPR}_{k-1}}{2} (\text{FPR}_k - \text{FPR}_{k-1})$$
- donde $M$ es el número de umbrales evaluados. Un clasificador perfecto tiene $\text{AUC}=1.0$; uno puramente aleatorio tiene $\text{AUC}=0.5$.
+  $$\text{AUC} \approx \sum_{k=1}^{M} \frac{\text{TPR}_k + \text{TPR}_{k-1}}{2} (\text{FPR}_k - \text{FPR}_{k-1})$$
+  donde $M$ es el número de umbrales evaluados. Un clasificador perfecto tiene $\text{AUC}=1.0$; uno puramente aleatorio tiene $\text{AUC}=0.5$.
 
 ---
 
@@ -155,7 +155,7 @@ Al introducir nuevos valores numéricos en el formulario:
 
 ---
 
-## Guía de Despliegue con un Solo Link (Streamlit Cloud)
+##  Guía de Despliegue con un Solo Link (Streamlit Cloud)
 
 Para alojar la aplicación de manera pública en la nube:
 
