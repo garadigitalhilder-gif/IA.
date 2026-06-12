@@ -1178,15 +1178,13 @@ elif module == " Módulo 3: Metodología y Fundamentos Teóricos":
     st.markdown("##  Módulo 3: Metodología y Fundamentos Teóricos Generativa")
     st.markdown("### Entregables y Justificación Pedagógica")
     
-    st.markdown("""
-    En cumplimiento de los requerimientos de la asignatura impartida por el **Ph.D. Jorge Rudas**, esta sección documenta detalladamente el uso ético y efectivo de herramientas de Inteligencia Artificial Generativa durante el desarrollo del proyecto.
-    """)
+  
 
     st.markdown(f"""
     <div style="background: rgba(99, 102, 241, 0.1); border-left: 4px solid #6366f1; padding: 1rem; border-radius: 4px; margin-bottom: 1.5rem;">
         <strong>Estudiantes:</strong> Marleinis Orozco y Yuleisi Carranza<br>
         <strong>Curso:</strong> Inteligencia Artificial y Aprendizaje de Máquina (Ingeniería Informática)<br>
-        <strong>Docente:</strong> PhD Jorge Rudas
+        <strong>Docente:</strong> Docente Jorge Rudas
     </div>
     """, unsafe_allow_html=True)
 
